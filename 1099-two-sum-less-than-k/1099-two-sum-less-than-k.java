@@ -2,7 +2,7 @@ class Solution {
     public int twoSumLessThanK(int[] nums, int k) {
         int n = nums.length;
         
-        int result = 0;
+        int result = -1;
         
         Arrays.sort(nums);
         
@@ -14,11 +14,7 @@ class Solution {
             }
             }
         }
-        
-        if(result == 0) {
-            return -1;
-        }
-        
+
         return result;
     }
 }
