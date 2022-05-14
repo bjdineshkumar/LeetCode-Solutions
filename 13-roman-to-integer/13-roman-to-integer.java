@@ -18,8 +18,7 @@ class Solution {
             } else {
                 result += symbols.get(s.charAt(i));
             }
-            
         }
         return result;
-}
+    }
 }
